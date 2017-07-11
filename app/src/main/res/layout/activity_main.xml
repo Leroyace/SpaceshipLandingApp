@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCCCCCC"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <ImageButton
+            android:layout_width="65dp"
+            android:layout_height="57dp"
+            android:id="@+id/imageButton2"
+            android:layout_gravity="right" />
+
+        <ImageButton
+            android:layout_width="78dp"
+            android:layout_height="64dp"
+            android:id="@+id/imageButton3"
+            android:layout_gravity="right" />
+
+        <ImageButton
+            android:layout_width="86dp"
+            android:layout_height="69dp"
+            android:id="@+id/imageButton"
+            android:layout_gravity="right" />
+    </LinearLayout>
+
+    <com.example.leroytse.spaceshiplandingapp.LandingView
+        android:id="@+id/landing"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1"
+        android:background="#FFFFFFFF" />
+
+
+</LinearLayout>
